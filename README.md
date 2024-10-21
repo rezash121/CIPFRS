@@ -16,8 +16,6 @@ This code aims to replicate and extend the baseline methodology from the origina
 
 ## **Features**
 
-## **Features**
-
 - **Multi-Stakeholder Fairness**: Ensures fairness for consumers, providers, and items in the recommendation process.
 - **Customizable Fairness Modes**: Supports multiple fairness modes to address different stakeholder needs.
 - **Gini Index Evaluation**: Includes measures for assessing fairness across providers and item inventories.
