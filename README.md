@@ -10,7 +10,7 @@
 
 - ## **Overview**
 Autonomous decision-making systems, particularly recommender systems, have received increasing attention concerning fairness, i.e., if all stakeholders affected by such a system are treated equally as a result of the recommendations. While extensive research literature exists and solutions to ensure fairness for consumers and providers have been proposed, a key hidden stakeholder remains underlooked: the items themselves, which many either disregard or consider combined with providers. To this end, we propose a fairness-aware recommender system, CIPFRS, designed to optimize fairness across all three key stakeholders: consumers, providers, and items. We examine 
-consumer fairness regarding their level of interaction with the system; high and low-activity users should be treated equally. Further, all providers should have an equal opportunity for their products to be recommended. Finally, we propose an approach to implement item fairness in each provider's inventory. We report an extensive evaluation of the proposed solution through three datasets, demonstrating that considering all three stakeholders yields improved recommendations while minimizing bias.
+consumer fairness regarding their level of interaction with the system; high and low-activity users should be treated equally. Further, all providers should have an equal opportunity for their products to be recommended. Finally, we propose an approach to implement item fairness in each provider's inventory. 
 
 
 ## **Features**
