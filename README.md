@@ -4,15 +4,14 @@
 - [Overview](#overview)
 - [Features](#features)
 - [Usage](#usage)
-- [Baseline Reference](#baseline-reference)
 - [Contributions](#contributions)
 - [License](#license)
 - [Contact](#contact)
 
 - ## **Overview**
-This project introduces CIPFRS, a fairness-aware recommender system that optimizes fairness for three key stakeholders: providers, items, and consumers. Our approach ensures balanced opportunities for providers to showcase their items, reduces popularity bias across items, and promotes equitable treatment for all consumers based on their interactions.
+Autonomous decision-making systems, particularly recommender systems, have received increasing attention concerning fairness, i.e., if all stakeholders affected by such a system are treated equally as a result of the recommendations. While extensive research literature exists and solutions to ensure fairness for consumers and providers have been proposed, a key hidden stakeholder remains underlooked: the items themselves, which many either disregard or consider combined with providers. To this end, we propose a fairness-aware recommender system, CIPFRS, designed to optimize fairness across all three key stakeholders: consumers, providers, and items. We examine 
+consumer fairness regarding their level of interaction with the system; high and low-activity users should be treated equally. Further, all providers should have an equal opportunity for their products to be recommended. Finally, we propose an approach to implement item fairness in each provider's inventory. We report an extensive evaluation of the proposed solution through three datasets, demonstrating that considering all three stakeholders yields improved recommendations while minimizing bias.
 
-This code aims to replicate and extend the baseline methodology from the original work, with modifications and additional features to enhance evaluation and optimize fairness aspects.
 
 ## **Features**
 
@@ -38,12 +37,6 @@ We provide a Jupyter Notebook that contains all the code and required packages f
 
 3. Follow the instructions in the notebook to set up the environment, install necessary packages, and run the code. The notebook includes explanations and cells for executing each part of the process.
 
-## **Baseline Reference**
-
-This project builds upon the baseline implementation available at:  
-[rahmanidashti/CPFairRecSys](https://github.com/rahmanidashti/CPFairRecSys).
-
-Some parts of this code (functions, parameters, algorithms) are taken directly from the original work by Hossein A. Rahmani, while additional modifications, new functions, and evaluations have been added by author of CIPFRS as part of this project.
 
 ## **Contributions**
 
